@@ -26,6 +26,13 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
+    <distributionManagement>
+    <repository>
+      <id>snapshot</id>
+      <name>gameoflife</name>
+      <url>http://localhost:8081/#browse/browse/components:maven-snapshots</url>
+    </repository>
+  </distributionManagement>
     <build>
         <plugins>
             <plugin>
